@@ -1,3 +1,5 @@
+Sales Conversion Optimization Project
+
 Predicting what will be the sentiment of a reader on reading the news headlines of finance
 PyPI - Python Version
 
