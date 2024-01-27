@@ -11,11 +11,9 @@ from nltk.stem.porter import *
 from sklearn.preprocessing import LabelEncoder
 from sklearn.feature_extraction.text import CountVectorizer
 from keras.preprocessing.text import Tokenizer
-from keras.preprocessing.sequence import pad_sequences
 import numpy as np
 import re
 import pandas as pd
-from sklearn.feature_extraction.text import TfidfVectorizer
 import string,time
 from nltk.corpus import stopwords
 from sklearn.model_selection import train_test_split

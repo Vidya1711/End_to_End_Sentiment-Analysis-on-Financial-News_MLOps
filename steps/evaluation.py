@@ -25,7 +25,7 @@ def evaluation(
     try:
         cv = joblib.load('vectorizer.joblib')
         X_test = cv.transform(X_test)
-        print('this is evaluation',X_test)
+     
         prediction = model.predict(X_test)
         
         f1_score_class = F1Score()   
