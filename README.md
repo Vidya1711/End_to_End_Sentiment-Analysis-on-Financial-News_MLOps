@@ -1,5 +1,5 @@
 
-# Sales Conversion Optimization Project
+# Sentiment Analysis Project
 
 Predicting what will be the sentiment of a reader on reading the news headlines of finance PyPI - Python Version
 
@@ -54,8 +54,9 @@ Training Pipeline Our standard training pipeline consists of several steps:
 * evaluation: This step will evaluate the model and save the metrics -- using MLflow autologging -- into the artifact store.    
 
 
+<div style="border: 2px solid #000000; padding: 10px;">
 ![pipeline](data/pipeline.png)
-
+</div>
 
 
 
