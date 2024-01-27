@@ -53,10 +53,11 @@ Training Pipeline Our standard training pipeline consists of several steps:
 * train_model: This step will train the model and save the model using MLflow autologging. 
 * evaluation: This step will evaluate the model and save the metrics -- using MLflow autologging -- into the artifact store.    
 
+<br>
 
-<div style="border: 2px solid #000000; padding: 10px;">
-   ![pipeline](data/pipeline.png)
-</div>
+![pipeline](data/pipeline.png)
+
+<br>
 
 
 
