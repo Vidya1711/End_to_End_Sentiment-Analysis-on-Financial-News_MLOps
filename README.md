@@ -54,7 +54,7 @@ Training Pipeline Our standard training pipeline consists of several steps:
 * evaluation: This step will evaluate the model and save the metrics -- using MLflow autologging -- into the artifact store.    
 
 
-![pipeline](/home/miniuser/MLOPS/SentimentAnalysis/data/ss.jpg)
+![pipeline](/home/miniuser/MLOPS/SentimentAnalysis/data/pipeline.png)
 
 
 
