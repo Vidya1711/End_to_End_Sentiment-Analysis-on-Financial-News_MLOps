@@ -55,7 +55,7 @@ Training Pipeline Our standard training pipeline consists of several steps:
 
 
 <div style="border: 2px solid #000000; padding: 10px;">
-![pipeline](data/pipeline.png)
+   ![pipeline](data/pipeline.png)
 </div>
 
 
