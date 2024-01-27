@@ -54,14 +54,15 @@ Training Pipeline Our standard training pipeline consists of several steps:
 * evaluation: This step will evaluate the model and save the metrics -- using MLflow autologging -- into the artifact store.    
 
 <br>
+<br>
 
 ![pipeline](data/pipeline.png)
 
 <br>
+<br>
 
 
-
-**Deployment Pipeline**  
+# Deployment Pipeline  
 We have another pipeline, the deployment_pipeline.py, that extends the training pipeline, and implements a continuous deployment workflow. It ingests and processes input data, trains a model and then (re)deploys the prediction server that serves the model if it meets our evaluation criteria. The criteria that we have chosen is a configurable threshold on the MSE of the training. The first four steps of the pipeline are the same as above, but we have added the following additional ones:
 
 * deployment_trigger: The step checks whether the newly trained model meets the criteria set for deployment. 
